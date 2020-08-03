@@ -17,3 +17,11 @@ function handleSubmit(event) {
 }
 
 export { handleSubmit }
+
+
+
+// после запуска express из сервера получаем два файла: index.html и mockAPI.js
+// страница port/test содержит json данные
+// когда введенное имя из формы совподает с именем из массива names, мы выводим alert("Welcome, Captain!")
+// далее делается fetch запрос по адресу port/test, запрос запрашивает значение ключа message
+// результат запроса появляется на странице
